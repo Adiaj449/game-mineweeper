@@ -1,0 +1,75 @@
+.background-set{
+    background-image: url("../Images/poster_game.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 85%;
+    height: 100%;
+}
+.headingPoster{
+    color:white;
+    padding: 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.soundBar{
+    color:white;
+    
+}
+.btn{
+    display: inline-block;
+    font-weight: 400;
+    border: 2px solid black;
+}
+.container,
+.container-fluid
+{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .col-sm-4
+  {
+    position: relative;
+    width: 33.33%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .col-sm-12
+  {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }  
+@media (min-width: 576px) {
+  .container, .container-sm {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container, .container-sm, .container-md {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container, .container-sm, .container-md, .container-lg {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container, .container-sm, .container-md, .container-lg, .container-xl {
+    max-width: 1140px;
+  }
+}
