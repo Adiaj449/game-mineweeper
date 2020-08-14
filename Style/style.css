@@ -10,9 +10,29 @@
     padding: 10%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+.mainBanner
+{
+    color:black;
+    padding: 10px;
+}
+.mainHeading{
+  color:black;
+   
+   
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 .soundBar{
     color:white;
-    
+    right:20px;
+}
+.timeBar
+{
+    right:0px;
+    color:red;
+}
+table{
+  position: relative;
+  text-align: center;
 }
 .btn{
     display: inline-block;
